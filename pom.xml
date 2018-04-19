@@ -16,5 +16,10 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-core</artifactId>
+            <version>5.1</version>
+        </dependency>
     </dependencies>
 </project>
