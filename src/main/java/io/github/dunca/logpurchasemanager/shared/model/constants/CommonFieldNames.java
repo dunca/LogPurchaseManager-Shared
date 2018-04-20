@@ -13,4 +13,6 @@ public final class CommonFieldNames {
     public static final String TREE_SPECIES_ID = "treeSpecies_id";
     public static final String PRICE = "price";
     public static final String IS_SYNCED = "isSynced";
+    public static final String APP_ALLOCATED_ID = "appAllocatedId";
+    public static final String SERVER_ALLOCATED_ID = "serverAllocatedId";
 }
