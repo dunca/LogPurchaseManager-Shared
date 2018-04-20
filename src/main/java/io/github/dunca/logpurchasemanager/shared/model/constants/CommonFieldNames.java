@@ -12,4 +12,5 @@ public final class CommonFieldNames {
     public static final String LOG_QUALITY_CLASS_ID = "logQualityClass_id";
     public static final String TREE_SPECIES_ID = "treeSpecies_id";
     public static final String PRICE = "price";
+    public static final String IS_SYNCED = "isSynced";
 }
