@@ -28,4 +28,8 @@ public class StaticData {
         this.woodCertifications = woodCertifications;
         this.woodRegions = woodRegions;
     }
+
+    public StaticData() {
+
+    }
 }
