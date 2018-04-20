@@ -33,6 +33,9 @@ public class LogPrice implements Model {
     private boolean isSynced;
 
     @DatabaseField(canBeNull = false, defaultValue = "0")
+    private int appAllocatedId;
+
+    @DatabaseField(canBeNull = false, defaultValue = "0")
     private int serverAllocatedId;
 
     public LogPrice(Acquisition acquisition, Acquirer acquirer, TreeSpecies treeSpecies,

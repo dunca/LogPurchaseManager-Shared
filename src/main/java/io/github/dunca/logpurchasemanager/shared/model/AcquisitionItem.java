@@ -57,6 +57,9 @@ public final class AcquisitionItem implements Model {
     private boolean isSynced;
 
     @DatabaseField(canBeNull = false, defaultValue = "0")
+    private int appAllocatedId;
+
+    @DatabaseField(canBeNull = false, defaultValue = "0")
     private int serverAllocatedId;
 
     public AcquisitionItem(Acquisition acquisition, Acquirer acquirer, String logBarCode,

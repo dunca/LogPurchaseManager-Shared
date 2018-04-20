@@ -59,6 +59,9 @@ public final class Acquisition implements Model {
     private boolean isSynced;
 
     @DatabaseField(canBeNull = false, defaultValue = "0")
+    private int appAllocatedId;
+
+    @DatabaseField(canBeNull = false, defaultValue = "0")
     private int serverAllocatedId;
 
     public Acquisition(String serialNumber, Acquirer acquirer, Supplier supplier,
