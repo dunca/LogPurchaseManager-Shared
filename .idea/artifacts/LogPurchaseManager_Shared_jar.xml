@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LogPurchaseManager-Shared:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LogPurchaseManager_Shared_jar</output-path>
+    <root id="archive" name="LogPurchaseManager-Shared.jar">
+      <element id="module-output" name="LogPurchaseManager-Shared" />
+    </root>
+  </artifact>
+</component>
