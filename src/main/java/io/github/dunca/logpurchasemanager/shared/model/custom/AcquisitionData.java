@@ -8,14 +8,18 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class FullAggregation {
+public class AcquisitionData {
     private List<Acquisition> acquisitionList;
     private List<AcquisitionItem> acquisitionItemList;
     private List<LogPrice> logPriceList;
 
-    public FullAggregation(List<Acquisition> acquisitionList, List<AcquisitionItem> acquisitionItemList, List<LogPrice> logPriceList) {
+    public AcquisitionData(List<Acquisition> acquisitionList, List<AcquisitionItem> acquisitionItemList, List<LogPrice> logPriceList) {
         this.acquisitionList = acquisitionList;
         this.acquisitionItemList = acquisitionItemList;
         this.logPriceList = logPriceList;
+    }
+
+    public AcquisitionData() {
+
     }
 }
